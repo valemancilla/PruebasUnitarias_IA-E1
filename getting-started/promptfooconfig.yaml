@@ -2,11 +2,11 @@
 description: 'Getting started'
 
 env:
-  GEMINI_API_KEY: AIzaSyAC-vGbZXC5EHjTgO0d8f5VWh2t0WJ35VU
+  #GEMINI_API_KEY: AIzaSyBuyz_c5oSLp27hH2_DCxq-OZ1ZKIW-v0Q
 
 providers:
-  - id: google:gemini-2.5-pro
-    config:
-      apiKey: AIzaSyAC-vGbZXC5EHjTgO0d8f5VWh2t0WJ35VU
+  - "google:gemini-2.5-flash-lite"
+  - "google:gemini-2.5-flash"
+    
 
 tests: file://tests/casos.yaml

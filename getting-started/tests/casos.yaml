@@ -1,7 +1,6 @@
 - description: "Pregunta 1 - let vs const"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
       Pregunta #1:
       ¿Cuál es la diferencia fundamental entre let y const en JavaScript?
   assert:
@@ -15,7 +14,7 @@
 - description: "Pregunta 2 - arrow functions"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #2:
       ¿Qué característica técnica distingue a las arrow functions de las funciones tradicionales?
   assert:
@@ -29,7 +28,7 @@
 - description: "Pregunta 3 - map()"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #3:
       ¿Cuál es la función principal del método map() en JavaScript?
   assert:
@@ -43,7 +42,7 @@
 - description: "Pregunta 4 - Promesas"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+     
       Pregunta #4:
       ¿Qué representa una Promesa (Promise) en JavaScript?
   assert:
@@ -57,7 +56,7 @@
 - description: "Pregunta 5 - async/await"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #5:
       ¿Cuál es la ventaja principal de usar async/await sobre .then()?
   assert:
@@ -71,7 +70,7 @@
 - description: "Pregunta 6 - Destructuring"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #6:
       ¿Qué permite hacer la desestructuración (destructuring) en JavaScript?
   assert:
@@ -83,7 +82,7 @@
 - description: "Pregunta 7 - Spread operator"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #7:
       ¿Cuál es el propósito del operador spread (...) en JavaScript?
   assert:
@@ -97,7 +96,7 @@
 - description: "Pregunta 8 - Closures"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #8:
       ¿Qué es un closure en JavaScript?
   assert:
@@ -111,7 +110,7 @@
 - description: "Pregunta 9 - Event loop"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #9:
       ¿Qué es el Event Loop en JavaScript?
   assert:
@@ -125,7 +124,7 @@
 - description: "Pregunta 10 - Template literals"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #10:
       ¿Qué ventaja ofrecen los template literals sobre las comillas simples o dobles?
   assert:
@@ -139,7 +138,7 @@
 - description: "Pregunta 11 - Hoisting"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #11:
       ¿Qué es el hoisting en JavaScript?
   assert:
@@ -153,7 +152,7 @@
 - description: "Pregunta 12 - Rest parameters"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+    
       Pregunta #12:
       ¿Para qué sirven los rest parameters (...args) en JavaScript?
   assert:
@@ -167,7 +166,7 @@
 - description: "Pregunta 13 - filter()"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #13:
       ¿Cuál es la función del método filter() en arrays?
   assert:
@@ -181,7 +180,7 @@
 - description: "Pregunta 14 - reduce()"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #14:
       ¿Qué hace el método reduce() en JavaScript?
   assert:
@@ -195,7 +194,7 @@
 - description: "Pregunta 15 - Strict mode"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+     
       Pregunta #15:
       ¿Qué es 'use strict' en JavaScript?
   assert:
@@ -209,7 +208,7 @@
 - description: "Pregunta 16 - Prototype"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #16:
       ¿Qué es el prototype en JavaScript?
   assert:
@@ -223,7 +222,7 @@
 - description: "Pregunta 17 - call() vs apply()"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #17:
       ¿Cuál es la diferencia entre call() y apply()?
   assert:
@@ -237,7 +236,7 @@
 - description: "Pregunta 18 - bind()"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #18:
       ¿Para qué sirve el método bind() en JavaScript?
   assert:
@@ -251,7 +250,7 @@
 - description: "Pregunta 19 - Callback functions"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #19:
       ¿Qué es una función callback en JavaScript?
   assert:
@@ -265,7 +264,7 @@
 - description: "Pregunta 20 - typeof vs instanceof"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #20:
       ¿Cuál es la diferencia entre typeof e instanceof?
   assert:
@@ -279,7 +278,7 @@
 - description: "Pregunta 21 - NaN"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #21:
       ¿Qué es NaN en JavaScript y cómo se verifica?
   assert:
@@ -293,7 +292,7 @@
 - description: "Pregunta 22 - null vs undefined"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+     
       Pregunta #22:
       ¿Cuál es la diferencia entre null y undefined?
   assert:
@@ -307,7 +306,7 @@
 - description: "Pregunta 23 - Set"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #23:
       ¿Qué es un Set en JavaScript y cuándo usarlo?
   assert:
@@ -321,7 +320,7 @@
 - description: "Pregunta 24 - Map"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #24:
       ¿Qué es un Map en JavaScript y en qué se diferencia de un objeto?
   assert:
@@ -335,7 +334,7 @@
 - description: "Pregunta 25 - Symbol"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #25:
       ¿Para qué sirve el tipo Symbol en JavaScript?
   assert:
@@ -349,7 +348,7 @@
 - description: "Pregunta 26 - WeakMap y WeakSet"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #26:
       ¿Qué diferencia hay entre Map/Set y WeakMap/WeakSet?
   assert:
@@ -363,7 +362,7 @@
 - description: "Pregunta 27 - Proxy"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #27:
       ¿Qué es un Proxy en JavaScript?
   assert:
@@ -377,7 +376,7 @@
 - description: "Pregunta 28 - Reflect"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #28:
       ¿Para qué sirve el objeto Reflect en JavaScript?
   assert:
@@ -391,7 +390,7 @@
 - description: "Pregunta 29 - Generators"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+      
       Pregunta #29:
       ¿Qué son las funciones generator en JavaScript?
   assert:
@@ -405,7 +404,7 @@
 - description: "Pregunta 30 - Iteradores"
   vars:
     prompt: |
-      {{ load "prompts.md" }}
+     
       Pregunta #30:
       ¿Qué es un iterador en JavaScript?
   assert:

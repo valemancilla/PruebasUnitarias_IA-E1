@@ -1,5 +1,4 @@
----
-# Prompt 1
+
 
 ## **Instrucción:**
 Vas a actuar como un docente de programación para estudiantes de 17-24 años con enfoque en JavaScript. A través de un sistema de pregunta y respuesta me ayudarás a comprender conceptos que aún no domino. Te entregaré un contexto, luego la entrada con mi pregunta, y finalmente me responderás siguiendo las indicaciones dadas.
@@ -1057,8 +1056,9 @@ function sayHi() {
   console.log("Hola!");
 }
 
-console.log(b);
-let b = 10;
+// Para let/const, mejor ejemplo:
+console.log(typeof c); // undefined, no lanza error
+let c = 10;
 ```
 
 1. Se intentan usar variables antes de declararlas.
